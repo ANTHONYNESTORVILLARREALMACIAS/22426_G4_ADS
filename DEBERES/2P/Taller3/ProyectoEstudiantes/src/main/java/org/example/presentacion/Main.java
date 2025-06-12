@@ -95,8 +95,6 @@ public class Main {
             System.out.println("Estudiante agregado exitosamente.");
         } catch (IllegalArgumentException e) {
             System.out.println("Error: " + e.getMessage());
-        } catch (NumberFormatException e) {
-            System.out.println("Error: Ingrese valores numéricos válidos para orden y edad.");
         }
     }
 
@@ -148,8 +146,6 @@ public class Main {
             System.out.println("Estudiante actualizado exitosamente.");
         } catch (IllegalArgumentException e) {
             System.out.println("Error: " + e.getMessage());
-        } catch (NumberFormatException e) {
-            System.out.println("Error: Ingrese valores numéricos válidos para orden y edad.");
         }
     }
 
@@ -164,8 +160,6 @@ public class Main {
             System.out.println("Estudiante eliminado exitosamente.");
         } catch (IllegalArgumentException e) {
             System.out.println("Error: " + e.getMessage());
-        } catch (NumberFormatException e) {
-            System.out.println("Error: Ingrese un valor numérico válido para el orden.");
         }
     }
 }
