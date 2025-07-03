@@ -7,16 +7,20 @@ import java.util.Scanner;
 /**
  * Clase principal que implementa la interfaz de usuario.
  * Proporciona un menú interactivo para realizar operaciones CRUD.
+ * Inicializa dos estudiantes de ejemplo al comenzar el programa.
  */
 public class Main {
     private static EstudianteController controller = new EstudianteController(); // Controlador para operaciones
     private static Scanner scanner = new Scanner(System.in); // Scanner para entrada de usuario
 
     /**
-     * Método principal que ejecuta el programa y muestra el menú.
+     * Método principal que ejecuta el programa, inicializa datos y muestra el menú.
      * @param args Argumentos de la línea de comandos
      */
     public static void main(String[] args) {
+        // Inicializar datos quemados
+        inicializarDatos();
+
         while (true) {
             limpiarPantalla();
             mostrarMenu();
@@ -47,6 +51,14 @@ public class Main {
                     esperarTecla();
             }
         }
+    }
+
+    /**
+     * Inicializa los datos quemados con dos estudiantes de ejemplo.
+     */
+    private static void inicializarDatos() {
+        controller.crearEstudiante(1, "Pérez", "Ana", 20);
+        controller.crearEstudiante(2, "García", "Luis", 22);
     }
 
     /**
@@ -199,6 +211,7 @@ public class Main {
     /**
      * Valida que el texto ingresado no esté vacío.
      * @param campo Nombre del campo para mensaje de error
+     * @return Texto validado
      */
     private static String validarTexto(String campo) {
         String texto;
