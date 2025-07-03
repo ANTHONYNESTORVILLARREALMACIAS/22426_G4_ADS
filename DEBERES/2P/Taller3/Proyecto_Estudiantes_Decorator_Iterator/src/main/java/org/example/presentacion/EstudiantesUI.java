@@ -58,7 +58,7 @@ public class EstudiantesUI extends JFrame {
 
             // Aplica el decorador si el estudiante tiene menos de 20 años
             if (edad < 20) {
-                estudiante = new DescuentoMatriculaDecorator(estudiante, 15);
+                estudiante = new DescuentoMatriculaDecorator(estudiante, 20);
             }
 
             servicio.agregarEstudiante(estudiante);
