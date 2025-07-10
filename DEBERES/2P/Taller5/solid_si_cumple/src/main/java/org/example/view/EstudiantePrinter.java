@@ -1,36 +1,56 @@
 package org.example.view;
 
 import org.example.model.Estudiante;
+import java.util.List;
 
-/**
- * Clase responsable de presentar información de estudiantes.
- * Cumple con SRP: única responsabilidad de mostrar datos al usuario.
- */
 public class EstudiantePrinter {
-    /**
-     * Imprime los detalles de un estudiante en la consola.
-     * @param estudiante El estudiante a imprimir.
-     */
-    public void imprimirDetalles(Estudiante estudiante) {
-        System.out.println("\n=== Detalles del Estudiante ===");
-        System.out.println("ID: " + estudiante.getId());
-        System.out.println("Nombre: " + estudiante.getNombre());
-        System.out.println("==============================");
+    public void mostrarMenuPrincipal() {
+        System.out.println("\n=== SISTEMA DE ESTUDIANTES ===");
+        System.out.println("1. Crear estudiante");
+        System.out.println("2. Listar estudiantes");
+        System.out.println("3. Buscar estudiante");
+        System.out.println("4. Actualizar estudiante");
+        System.out.println("5. Eliminar estudiante");
+        System.out.println("6. Salir");
+        System.out.print("Seleccione una opción: ");
     }
 
-    /**
-     * Imprime un mensaje de error.
-     * @param mensaje El mensaje de error a mostrar.
-     */
-    public void imprimirError(String mensaje) {
-        System.err.println("Error: " + mensaje);
+    public void mostrarEstudiante(Estudiante estudiante) {
+        if (estudiante != null) {
+            System.out.println("\n=== DETALLE ESTUDIANTE ===");
+            System.out.println("ID: " + estudiante.getId());
+            System.out.println("Nombre: " + estudiante.getNombre());
+            System.out.println("Email: " + estudiante.getEmail());
+        } else {
+            System.out.println("\nEstudiante no encontrado.");
+        }
     }
 
-    /**
-     * Imprime un mensaje informativo.
-     * @param mensaje El mensaje a mostrar.
-     */
-    public void imprimirMensaje(String mensaje) {
-        System.out.println("Info: " + mensaje);
+    public void mostrarListaEstudiantes(List<Estudiante> estudiantes) {
+        System.out.println("\n=== LISTA DE ESTUDIANTES ===");
+        if (estudiantes.isEmpty()) {
+            System.out.println("No hay estudiantes registrados.");
+        } else {
+            System.out.println("ID\tNombre\t\tEmail");
+            System.out.println("----------------------------------");
+            estudiantes.forEach(e ->
+                    System.out.println(e.getId() + "\t" + e.getNombre() + "\t\t" + e.getEmail()));
+        }
+    }
+
+    public void mostrarMensaje(String mensaje) {
+        System.out.println("\n> " + mensaje);
+    }
+
+    public void mostrarError(String error) {
+        System.err.println("\nERROR: " + error);
+    }
+
+    public void pedirDatosEstudiante() {
+        System.out.println("\nIngrese los datos del estudiante:");
+    }
+
+    public void pedirIdEstudiante() {
+        System.out.print("\nIngrese el ID del estudiante: ");
     }
 }
