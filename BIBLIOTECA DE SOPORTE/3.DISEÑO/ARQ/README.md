@@ -15,9 +15,9 @@
 
 | Versión           | Fecha       | Responsable       | Aprobado por      |
 |-------------------|------------|-------------------|-------------------|
-| LBD_ARQ_V4.pdf    | 05/08/2025 | Anthony Villarreal | Diego Casignia    |
+| LBD_ARQ_V5.pdf    | 05/08/2025 | Anthony Villarreal | Diego Casignia    |
 
 ---
 
 ## Archivos en esta carpeta
-- `LBD_ARQ_V4.pdf` → Versión más reciente del diagrama de arquitectura, revisada y aprobada para la biblioteca de soporte.  
+- `LBD_ARQ_V5.pdf` → Versión más reciente del diagrama de arquitectura, revisada y aprobada para la biblioteca de soporte.  
