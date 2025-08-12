@@ -16,10 +16,8 @@
 | Versión           | Fecha       | Responsable       | Aprobado por      |
 |-------------------|------------|-------------------|-------------------|
 | LBD_DCU_V1.pdf    | 30/07/2025 | Javier Ramos      | Anthony Villarreal |
-| LBD_DCU_V2.pdf    | 05/08/2025 | Diego Casignia    | Javier Ramos      |
 
 ---
 
 ## Archivos en esta carpeta
-- `LBD_DCU_V1.pdf` → Versión inicial del diagrama de casos de uso.  
-- `LBD_DCU_V2.pdf` → Actualización con nuevos casos de uso y refinamiento de interacciones.  
+- `LBD_DCU_V1.pdf` → Versión inicial del diagrama de casos de uso. 

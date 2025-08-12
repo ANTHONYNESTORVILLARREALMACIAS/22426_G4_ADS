@@ -16,10 +16,8 @@
 | Versión           | Fecha       | Responsable       | Aprobado por      |
 |-------------------|------------|-------------------|-------------------|
 | LBD_DCO_V1.pdf    | 30/07/2025 | Diego Casignia    | Javier Ramos      |
-| LBD_DCO_V2.pdf    | 05/08/2025 | Anthony Villarreal | Diego Casignia    |
 
 ---
 
 ## Archivos en esta carpeta
-- `LBD_DCO_V1.pdf` → Versión inicial del diagrama de componentes.  
-- `LBD_DCO_V2.pdf` → Actualización con ajustes en las dependencias y estructura de los componentes.  
+- `LBD_DCO_V1.pdf` → Versión inicial del diagrama de componentes.

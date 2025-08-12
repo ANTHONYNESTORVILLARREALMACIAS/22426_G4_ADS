@@ -16,17 +16,9 @@
 | Versión           | Fecha       | Responsable       | Aprobado por      |
 |-------------------|------------|-------------------|-------------------|
 | LBD_DER_V1.pdf    | 30/07/2025 | Diego Casignia    | Javier Ramos      |
-| LBD_DER_V2.pdf    | 31/07/2025 | Anthony Villarreal | Diego Casignia    |
-| LBD_DER_V3.pdf    | 02/08/2025 | Javier Ramos      | Anthony Villarreal |
-| LBD_DER_V4.pdf    | 05/08/2025 | Diego Casignia    | Javier Ramos      |
-| LBD_DER_V5.pdf    | 06/08/2025 | Diego Casignia    | Javier Ramos      |
 
 
 ---
 
 ## Archivos en esta carpeta
-- `LBD_DER_V1.pdf` → Versión inicial del diagrama entidad-relación.  
-- `LBD_DER_V2.pdf` → Actualización con entidades adicionales y ajustes en relaciones.  
-- `LBD_DER_V3.pdf` → Refinamiento de relaciones y optimización del modelo.  
-- `LBD_DER_V4.pdf` → Versión optimizada.  
-- `LBD_DER_V5.pdf` → Versión final.  
+- `LBD_DER_V1.pdf` → Versión inicial del diagrama entidad-relación. 

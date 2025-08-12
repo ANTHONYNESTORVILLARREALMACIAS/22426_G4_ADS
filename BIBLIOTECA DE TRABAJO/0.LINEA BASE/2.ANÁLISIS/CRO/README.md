@@ -16,12 +16,8 @@
 | Versión           | Fecha       | Responsable       | Aprobado por      |
 |-------------------|------------|-------------------|-------------------|
 | LBA_CRO_V1.xlsx   | 30/07/2025 | Javier Ramos      | Anthony Villarreal |
-| LBA_CRO_V2.xlsx   | 01/08/2025 | Diego Casignia    | Javier Ramos      |
-| LBA_CRO_V3.xlsx   | 05/08/2025 | Anthony Villarreal | Diego Casignia    |
 
 ---
 
 ## Archivos en esta carpeta
-- `LBA_CRO_V1.xlsx` → Versión inicial del cronograma del proyecto.  
-- `LBA_CRO_V2.xlsx` → Ajuste de fechas y reasignación de tareas.  
-- `LBA_CRO_V3.xlsx` → Versión optimizada con actualizaciones finales.  
+- `LBA_CRO_V1.xlsx` → Versión inicial del cronograma del proyecto.

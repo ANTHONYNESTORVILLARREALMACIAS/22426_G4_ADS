@@ -16,10 +16,8 @@
 | Versión | Fecha       | Responsable       | Aprobado por      |
 |---------|------------|-------------------|--------------------|
 | LBR_CONF_V1 | 30/07/2025 | Diego Casignia    | Javier Ramos       |
-| LBR_CONF_V2 | 05/08/2025 | Diego Casignia    | Anthony Villarreal |
 
 ---
 
 ## Archivos en esta carpeta
-- `LBR_CONF_V1.pdf` → Versión inicial del Plan de Gestión de Configuración.  
-- `LBR_CONF_V2.pdf` → Versión corregida con ajustes y mejoras de contenido.  
+- `LBR_CONF_V1.pdf` → Versión inicial del Plan de Gestión de Configuración.

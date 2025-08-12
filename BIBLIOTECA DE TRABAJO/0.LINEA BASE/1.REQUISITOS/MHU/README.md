@@ -16,10 +16,7 @@
 | Versión             | Fecha       | Responsable       | Aprobado por      |
 |---------------------|------------|-------------------|-------------------|
 | LBR_MHU_V1.xlsx     | 30/07/2025 | Diego Casignia    | Javier Ramos      |
-| LBR_MHU_V2.xlsx     | 05/08/2025 | Anthony Villarreal | Diego Casignia    |
-
 ---
 
 ## Archivos en esta carpeta
 - `LBR_MHU_V1.xlsx` → Versión inicial de la matriz de historias de usuario.  
-- `LBR_MHU_V2.xlsx` → Versión actualizada con mejoras y ajustes a las historias de usuario.  
