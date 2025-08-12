@@ -15,9 +15,9 @@
 
 | Versión           | Fecha       | Responsable       | Aprobado por      |
 |-------------------|------------|-------------------|-------------------|
-| LBD_DER_V4.pdf    | 05/08/2025 | Diego Casignia    | Javier Ramos      |
+| LBD_DER_V5.pdf    | 05/08/2025 | Diego Casignia    | Javier Ramos      |
 
 ---
 
 ## Archivos en esta carpeta
-- `LBD_DER_V4.pdf` → Versión más reciente del diagrama entidad-relación, revisada y aprobada para la biblioteca de soporte.  
+- `LBD_DER_V5.pdf` → Versión más reciente del diagrama entidad-relación, revisada y aprobada para la biblioteca de soporte.  
