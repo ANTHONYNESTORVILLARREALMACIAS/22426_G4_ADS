@@ -15,9 +15,9 @@
 
 | Versión           | Fecha       | Responsable       | Aprobado por      |
 |-------------------|------------|-------------------|-------------------|
-| LBD_DCA_V4.pdf    | 05/08/2025 | Javier Ramos      | Anthony Villarreal |
+| LBD_DCA_V5.pdf    | 05/08/2025 |Anthony Villarreal  | Javier Ramos |
 
 ---
 
 ## Archivos en esta carpeta
-- `LBD_DCA_V4.pdf` → Versión más reciente del diagrama de clases, revisada y aprobada para la biblioteca de soporte.  
+- `LBD_DCA_V5.pdf` → Versión más reciente del diagrama de clases, revisada y aprobada para la biblioteca de soporte.  
